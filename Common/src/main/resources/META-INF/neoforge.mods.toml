@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="alwaysawitherskull"
-version="3.2"
+version="3.3"
 displayName="Always a Wither Skull"
 displayURL="https://serilum.com/mod/always-a-wither-skull"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''A drag-and-drop mod that makes wither skeletons always drop their
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jack, Jeremy Langford, Michael W. S., pepe1191, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Michael W. S., Shana Gitnick, Sukhmai, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.alwaysawitherskull]]
     modId="collective"
     type="required"
-    versionRange="[7.55,)"
+    versionRange="[7.67,)"
     ordering="NONE"
     side="BOTH"
 
