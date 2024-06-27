@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.alwaysawitherskull.forge.mixin",
+  "package": "com.natamus.alwaysawitherskull.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "alwaysawitherskull_forge.refmap.json",
   "mixins": [
 
   ],
