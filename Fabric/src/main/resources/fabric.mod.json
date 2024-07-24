@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "alwaysawitherskull",
-  "version": "3.3",
+  "version": "3.4",
 
   "name": "Always a Wither Skull",
   "description": "A drag-and-drop mod that makes wither skeletons always drop their skull on death.",
@@ -17,13 +17,16 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.alwaysawitherskull.ModFabric" ] },
+  "mixins": [
+    "alwaysawitherskull.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.15.0",
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.67"
+    "collective": ">=7.74"
   },
 
   "custom": {
@@ -44,11 +47,10 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
 	  " Michael W. S.",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
-	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }

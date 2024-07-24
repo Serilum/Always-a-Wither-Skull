@@ -4,15 +4,13 @@
   "package": "com.natamus.alwaysawitherskull.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-
+	"WitherSkeletonMixin"
   ],
   "client": [
-  
   ],
   "server": [
-
   ],
   "injectors": {
-    "defaultRequire": 1
+	"defaultRequire": 1
   }
 }
