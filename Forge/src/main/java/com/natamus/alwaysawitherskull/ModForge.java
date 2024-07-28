@@ -1,6 +1,7 @@
 package com.natamus.alwaysawitherskull;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.alwaysawitherskull.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -12,6 +13,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 

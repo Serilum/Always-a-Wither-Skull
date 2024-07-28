@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="alwaysawitherskull"
-version="3.4"
+version="3.5"
 displayName="Always a Wither Skull"
 displayURL="https://serilum.com/mod/always-a-wither-skull"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.alwaysawitherskull]]
     modId="collective"
     type="required"
-    versionRange="[7.74,)"
+    versionRange="[7.78,)"
     ordering="NONE"
     side="BOTH"
 
