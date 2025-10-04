@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "alwaysawitherskull",
-  "version": "3.5",
+  "version": "3.6",
 
   "name": "Always a Wither Skull",
   "description": "A drag-and-drop mod that makes wither skeletons always drop their skull on death.",
