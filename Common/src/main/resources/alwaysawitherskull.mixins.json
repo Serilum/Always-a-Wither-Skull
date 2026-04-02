@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.alwaysawitherskull.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "WitherSkeletonMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
