@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "alwaysawitherskull",
-  "version": "3.6",
+  "version": "3.7",
 
   "name": "Always a Wither Skull",
   "description": "A drag-and-drop mod that makes wither skeletons always drop their skull on death.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/always-a-wither-skull",
     "sources": "https://github.com/Serilum/Always-a-Wither-Skull",
@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.alwaysawitherskull.ModFabric" ] },
+  "entrypoints": { "main": [ "com.serilum.alwaysawitherskull.ModFabric" ] },
   "mixins": [
     "alwaysawitherskull.mixins.json"
   ],
@@ -26,7 +26,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.3",
     "java": ">=25",
-    "collective": ">=8.39"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -41,7 +41,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
