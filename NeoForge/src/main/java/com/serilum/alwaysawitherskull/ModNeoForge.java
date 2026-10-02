@@ -1,8 +1,8 @@
-package com.natamus.alwaysawitherskull;
+package com.serilum.alwaysawitherskull;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.alwaysawitherskull.util.Reference;
+import com.serilum.alwaysawitherskull.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;

@@ -1,8 +1,8 @@
-package com.natamus.alwaysawitherskull.util;
+package com.serilum.alwaysawitherskull.util;
 
 public class Reference {
 	public static final String MOD_ID = "alwaysawitherskull";
 	public static final String NAME = "Always a Wither Skull";
-	public static final String VERSION = "3.6";
+	public static final String VERSION = "3.7";
 	public static final String ACCEPTED_VERSIONS = "[26.2.0]";
 }
