@@ -1,4 +1,4 @@
-package com.natamus.alwaysawitherskull.mixin;
+package com.serilum.alwaysawitherskull.mixin;
 
 import com.natamus.collective.functions.TaskFunctions;
 import net.minecraft.server.level.ServerLevel;
