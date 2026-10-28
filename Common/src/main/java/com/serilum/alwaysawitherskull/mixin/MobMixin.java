@@ -1,4 +1,4 @@
-package com.natamus.alwaysawitherskull.mixin;
+package com.serilum.alwaysawitherskull.mixin;
 
 import com.natamus.collective.functions.TaskFunctions;
 import net.minecraft.server.level.ServerLevel;
@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = Mob.class, priority = 1001)
-public class WitherSkeletonMixin {
+public class MobMixin {
 	@Inject(method = "dropCustomDeathLoot(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;Z)V", at = @At(value = "HEAD"))
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource damageSource, boolean b, CallbackInfo ci) {
 		if (!((Mob)(Object)this instanceof WitherSkeleton witherSkeleton)) {

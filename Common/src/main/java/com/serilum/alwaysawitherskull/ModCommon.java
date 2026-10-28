@@ -1,4 +1,4 @@
-package com.natamus.alwaysawitherskull;
+package com.serilum.alwaysawitherskull;
 
 
 public class ModCommon {
